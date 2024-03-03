@@ -1,3 +1,3 @@
-print(3+4)
+print("Python")
 a = input("What your name: ")
 print(a)
