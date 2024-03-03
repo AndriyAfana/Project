@@ -1,2 +1,3 @@
 print(3+4)
-input("What your name: ")
+a = input("What your name: ")
+print(a)
