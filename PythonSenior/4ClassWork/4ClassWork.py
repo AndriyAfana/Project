@@ -8,7 +8,7 @@ player1.show_info()
 player2 = Character('caloiborch', damage=25, health=100)
 print(player2)
 
-while True:
+while player1.is_alive() and player2.is_alive():
       time.sleep(2.000)
       player1.is_alive()
       player2.is_alive()
