@@ -10,8 +10,6 @@ print(player2)
 
 while player1.is_alive() and player2.is_alive():
       time.sleep(2.000)
-      player1.is_alive()
-      player2.is_alive()
       p1_damage = player1.attack (player2)
       print(f'{player1.name} aтakував {player2.name} '
             f'i нанic {p1_damage} шкоди.')
